@@ -1,11 +1,9 @@
 package com.devsuperior.demo.services;
 
 import com.devsuperior.demo.dto.EventDTO;
-import com.devsuperior.demo.entities.City;
 import com.devsuperior.demo.entities.Event;
 import com.devsuperior.demo.repositories.CityRepository;
 import com.devsuperior.demo.repositories.EventRepository;
-import com.devsuperior.demo.services.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

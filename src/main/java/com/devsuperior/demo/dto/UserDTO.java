@@ -3,7 +3,8 @@ package com.devsuperior.demo.dto;
 import com.devsuperior.demo.entities.User;
 import org.springframework.security.core.GrantedAuthority;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserDTO {
 

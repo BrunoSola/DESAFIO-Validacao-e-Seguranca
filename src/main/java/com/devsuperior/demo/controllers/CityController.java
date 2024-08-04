@@ -2,12 +2,12 @@ package com.devsuperior.demo.controllers;
 
 import com.devsuperior.demo.dto.CityDTO;
 import com.devsuperior.demo.services.CityService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import jakarta.validation.Valid;
 
 import java.net.URI;
 import java.util.List;
